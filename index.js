@@ -256,6 +256,8 @@ function getOlderCars(array, maxYear) {
   }
   return olderCars;
 }
+
+
 ​
 /**
  * ### Challenge `getGermanCars`
@@ -277,6 +279,7 @@ function getGermanCars(array) {
  } return germanCars;
 }
 ​
+getGermanCars(inventory)
 /** 
  * ### Challenge refactor to arrow functions
  * 
@@ -287,26 +290,30 @@ function getGermanCars(array) {
  *   return a + b
  * }
 */ 
-  const sum = (a, b) => { return a + b }
- * /* 
+  const sum = (a, b) => { 
+    return a + b 
+  }
+/* 
  
  * const addFive = function(num) {
 *    return num + 5
  * }
  *
  * */
- const addFive = num => { return num + 5}
+ const addFive = (num) => { 
+   return num + 5
+  }
  /*
 ​
  * const argTimesTwo = function (num) {
  *   return num * 2
  * }
 */
-const argTimesTwo = num => { return num * 2}
+const argTimesTwo = (num) => { return num * 2}
 ​
-const sum = null; // code here!
-const addFive = null; // code here!
-const argTimesTwo = null; // code here!
+// const sum = null; // code here!
+// const addFive = null; // code here!
+// const argTimesTwo = null; // code here!
 ​
 /**
  * ### Challenge `carMaker`
