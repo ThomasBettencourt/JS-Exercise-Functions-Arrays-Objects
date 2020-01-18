@@ -65,7 +65,7 @@ function getName(Object) {
  return `Hello, my name is %{name}`
 }
 ​
-/**
+/*
  * ### Challenge `makeSmartPerson`
  * 
  * @instructions
